@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.carro.UpdateCarroFragment">
+
+    <EditText
+        android:id="@+id/et_carro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Marca del carro"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:text="Marca del carro"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/et_placa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Placa"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:text="Placa"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/et_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Color"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        tools:text="Color"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/et_modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:text="Modelo"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:text="Actualizar Carro"
+        app:iconTint="@color/black" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Carros</string>
+    <string name="tv_correo">Correo</string>
+    <string name="tv_clave">Clave</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_carro">Carros</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="msg_carro">Marca del Carro</string>
+    <string name="msg_placa">Placa</string>
+    <string name="msg_color">Color</string>
+    <string name="msg_modelo">Modelo del carro</string>
+    <string name="msg_agregado">Carro agregado</string>
+    <string name="msg_actualizado">Carro actualizado</string>
+    <string name="bt_agregar">Agregar Carro</string>
+    <string name="bt_actualizar">Actualizar carro</string>
+
+    <string name="msg_lugar_agregado">Lugar Agregado</string>
+    <string name="msg_faltan_datos">Faltan Datos</string>
+    <string name="menu_delete">Eliminar Carro</string>
+    <string name="si">Si</string>
+    <string name="msg_seguro_borrar">Esta seguro de borrar</string>
+    <string name="no">No</string>
+    <string name="textview">TextView</string>
+    <string name="textview">TextView</string>
+</resources>
